@@ -18,3 +18,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_EDUTASK_54A15 }}
           channelId: live
           projectId: edutask-54a15
+          entryPoint: ./edutask
