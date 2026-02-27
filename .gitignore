@@ -1,0 +1,61 @@
+# =========================
+# 1. System Files
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# =========================
+# 2. IDEs and Editors
+# =========================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# 3. Environment & Secrets (CRITICAL)
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+serviceAccountKey.json
+firebase-adminsdk.json
+
+# =========================
+# 4. Global Node & NPM
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# =========================
+# 5. Global Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# 6. Firebase Specific
+# =========================
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log*
+firestore-debug.log*
+ui-debug.log*
